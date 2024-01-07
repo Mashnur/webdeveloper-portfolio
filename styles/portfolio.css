@@ -10,7 +10,8 @@ nav{
     display: flex;
     
     justify-content: space-between ;
-    align-items: center;
+    margin: 0,200px;
+   
 
 }
 .nav-title{
@@ -25,7 +26,7 @@ letter-spacing: 33px;
 }
 nav>ul{
     display: flex;
-    align-items: center;
+  
     
    
 }
@@ -47,4 +48,16 @@ font-style: normal;
 font-weight: 700;
 padding: 18px ,18px ,36px;
 
+}
+.header{
+    background: #FFF8F3;
+}
+.banner{
+   padding: 30px,30px,30px ,150px;
+   display: flex;
+   align-items: center;
+}
+.banner.profile-pic{
+    width: 584px;
+height: 676px;
 }
