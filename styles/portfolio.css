@@ -113,6 +113,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     padding: 140px;
     border-radius: 10px;
@@ -125,4 +128,32 @@ margin: 130px 0px;
 }
 .about-info{
     text-align: center;
+}
+/* skill related styles */
+
+#what-i-do-discription{
+    padding: 30px 150px;
+}
+.slills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+}
+.skill-discription{
+    padding: 30px;
+}
+.skill-discription{
+    color: var(--Dark-03, #757575);
+}
+/* Resume collun section */
+.resume-collumn-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
